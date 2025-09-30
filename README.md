@@ -48,7 +48,7 @@
 ## 💡3. 시스템 구성도
 3.1. 하드웨어 설계도
 
-![하드웨어 설계도](https://github.com/thdtjdgur/25_HC203/blob/main/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%20%EC%84%A4%EA%B3%84%EB%8F%84.png)
+<img src="https://github.com/thdtjdgur/25_HC203/blob/main/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%20%EC%84%A4%EA%B3%84%EB%8F%84.png" width="400"/>
 
 3.2. 주행 서비스 흐름도
 
