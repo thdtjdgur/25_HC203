@@ -40,8 +40,10 @@
 - 프로젝트 관리·협업 : Git, KakaoTalk, Zoom, Slack
 - 기타 : 구동 휠 지름 10 cm
 
+
 ## 💡2. 팀원소개
 ![개발자 소개](https://github.com/thdtjdgur/25_HC203/blob/main/%EC%97%AD%ED%95%A0%EB%B6%84%EB%8B%B4.png)
+
 
 ## 💡3. 시스템 구성도
 3.1. 하드웨어 설계도
