@@ -51,6 +51,7 @@
 <img src="https://github.com/thdtjdgur/25_HC203/blob/main/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%20%EC%84%A4%EA%B3%84%EB%8F%84.png" width="500"/>
 
 
+
 3.2. 주행 서비스 흐름도
 
 <img src="https://github.com/thdtjdgur/25_HC203/blob/main/%EC%A3%BC%ED%96%89%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%9D%90%EB%A6%84%EB%8F%84.png" width="500"/>
@@ -62,6 +63,7 @@
 5. 목표위치와 현재 로봇의 위치를 바탕으로 병원에서의 로봇의 위치를 파악한다.
 6. 라이다를 통해 실시간으로 장애물 회피경로를 생성한다.
 7. 생성된 geometry_msgs/Twist 데이터를 모터에 전달하여 주행한다.
+
 
 
 3.3. 디스플레이 서비스 흐름도
