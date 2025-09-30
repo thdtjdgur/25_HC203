@@ -47,9 +47,11 @@
 
 ## 💡3. 시스템 구성도
 3.1. 하드웨어 설계도
+
 <img src="https://github.com/thdtjdgur/25_HC203/blob/main/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%20%EC%84%A4%EA%B3%84%EB%8F%84.png" width="500"/>
 
 3.2. 주행 서비스 흐름도
+
 <img src="https://github.com/thdtjdgur/25_HC203/blob/main/%EC%A3%BC%ED%96%89%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%9D%90%EB%A6%84%EB%8F%84.png" width="500"/>
 1. Arduino mega와 ros시리얼통신을 통해 엔코더값을 전달받는다.
 2. 엔코더, imu(myahrs+), ydlidar센서 융합을 통해 로봇의 위치를 갱신한다.
@@ -60,10 +62,11 @@
 7. 생성된 geometry_msgs/Twist 데이터를 모터에 전달하여 주행한다.
 
 3.3. 디스플레이 서비스 흐름도
+
 <img src="https://github.com/thdtjdgur/25_HC203/blob/main/%EB%94%94%EC%8A%A4%ED%94%8C%EB%A0%88%EC%9D%B4%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%ED%9D%90%EB%A6%84%EB%8F%84.png" width="500"/>
-1. BLE beacon을 통해 미리 병원 전체의 신호 데이터베이스를 저장하여 핑거프린팅 맵을 만듦
-2. 실시간으로 위치추적 시 비콘에게서 RSSI 신호를 받고, 핑거프린팅 기법을 통해 현재 위치 예측
-3. IMU센서의 PDR기법을 통해 걸음 수와 방향을 검출
-4. IMU센서의 데이터와 비콘의 데이터를 받아 EKF를 통해 융합
-5. EKF의 위치 정보와 IMU의 방향정보를 지도에 표시
+1. BLE beacon을 통해 미리 병원 전체의 신호 데이터베이스를 저장하여 핑거프린팅 맵을 만든다.
+2. 실시간으로 위치추적 시 비콘에게서 RSSI 신호를 받고, 핑거프린팅 기법을 통해 현재 위치 예측한다.
+3. IMU센서의 PDR기법을 통해 걸음 수와 방향을 검출한다.
+4. IMU센서의 데이터와 비콘의 데이터를 받아 EKF를 통해 융합한다.
+5. EKF의 위치 정보와 IMU의 방향정보를 지도에 표시한다.
 
