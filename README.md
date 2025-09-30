@@ -41,3 +41,4 @@
 - 기타 : 구동 휠 지름 10 cm
 
 ## 💡2. 팀원소개
+![개발자 소개](https://github.com/thdtjdgur/25_HC203/blob/main/%EC%97%AD%ED%95%A0%EB%B6%84%EB%8B%B4.png)
