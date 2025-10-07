@@ -1,0 +1,184 @@
+/* ========================================
+   ODIGA UI - Modern Dark Theme
+   ======================================== */
+
+/* ===== 공통 스타일 및 다크 테마 ===== */
+#MainWindow {
+    background-color: #2c3e50; /* 다크 네이비 배경 */
+}
+
+/* 앱 전체의 기본 폰트와 글자색 설정 */
+QWidget {
+    color: #ecf0f1;
+    font-family: 'Malgun Gothic', 'Arial', sans-serif;
+}
+
+/* ===== 메인 버튼 (길안내, 로봇 호출) ===== */
+#NAV, #Robot {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px; /* 부드러운 모서리 */
+    min-height: 180px;
+}
+
+#NAV {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #3498db, stop:1 #2980b9); /* 파란색 그라데이션 */
+}
+#NAV:hover {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4aa3df, stop:1 #3a90ca);
+}
+#NAV:pressed {
+    background-color: #2980b9;
+}
+
+#Robot {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #2ecc71, stop:1 #27ae60); /* 녹색 그라데이션 */
+}
+#Robot:hover {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #42d87f, stop:1 #30b86a);
+}
+#Robot:pressed {
+    background-color: #27ae60;
+}
+
+
+/* ===== 상단 팝업 위젯 공통 스타일 ===== */
+#Toast, #RobotStatus, #NavigationStatus, #ArrivalPrompt {
+    border-radius: 22px;
+    padding: 20px 35px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+#Toast {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#RobotStatus, #NavigationStatus {
+    background-color: rgba(44, 62, 80, 0.9); /* 배경과 유사한 반투명 */
+    border: 1px solid #3498db; /* 파란색 테두리 포인트 */
+}
+
+#ArrivalPrompt {
+    background-color: #34495e; /* 다른 팝업보다 살짝 밝은 배경 */
+    border: 1px solid #bdc3c7;
+}
+
+/* 팝업 내부의 라벨 스타일 */
+#RobotStatus QLabel, #NavigationStatus QLabel, #ArrivalPrompt QLabel {
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+#ArrivalPrompt QLabel {
+    color: #ecf0f1; /* 도착 프롬프트는 밝은 회색 글씨 */
+}
+
+/* ===== 팝업 내부 버튼 공통 스타일 ===== */
+#StopCallButton, #CancelNavButton, #ConfirmMoveButton {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 18px;
+    min-width: 80px;
+    margin: 0px 5px;
+    width: auto;
+    height: auto;
+}
+
+#StopCallButton, #CancelNavButton {
+    background-color: #e74c3c; /* 취소/중지: 빨간색 */
+    color: white;
+}
+#StopCallButton:hover, #CancelNavButton:hover {
+    background-color: #c0392b;
+}
+#StopCallButton:pressed, #CancelNavButton:pressed {
+    background-color: #a93226;
+}
+
+#ConfirmMoveButton {
+    background-color: #3498db; /* 확인/진행: 파란색 */
+    color: white;
+    margin-top: 15px;
+    padding: 12px 50px;
+}
+#ConfirmMoveButton:hover {
+    background-color: #2980b9;
+}
+#ConfirmMoveButton:pressed {
+    background-color: #1f649b;
+}
+
+
+/* ===== 좌측 상단 현재 경로 안내창 ===== */
+#CurrentNav {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 18px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#CurrentNav QLabel {
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+}
+
+#CurrentNavCancelButton {
+    background-color: transparent;
+    color: #e74c3c; /* 텍스트만 빨간색으로 */
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 14px;
+}
+
+#CurrentNavCancelButton:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#SelectionDialog {
+    background-color: #34495e; /* 메인 팝업창과 유사한 배경색 */
+    border: 1px solid #7f8c8d;
+    border-radius: 20px;
+}
+
+#SelectionDialog QLabel {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* property 'class'가 'dialog_button'인 QPushButton에 스타일 적용 */
+#SelectionDialog QPushButton[class="dialog_button"] {
+    background-color: #3498db; /* 기본 배경색 */
+    color: #ecf0f1;
+    font-size: 28px;
+    font-weight: bold;
+    border: 1px solid #4a627a;
+    border-radius: 15px;
+    padding: 20px 40px;
+    margin: 0px 20px; /* 좌우 여백 */
+    min-width: 250px;
+}
+
+#SelectionDialog QPushButton[class="dialog_button"]:hover {
+    background-color: #3498db; /* 마우스를 올리면 파란색으로 변경 */
+    border: 1px solid #5dade2;
+}
+
+#SelectionDialog QPushButton[class="dialog_button"]:pressed {
+    background-color: #2980b9; /* 클릭 시 더 어두운 파란색 */
+}
