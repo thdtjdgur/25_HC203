@@ -78,7 +78,7 @@
 
 
 # 💡4. 작품 소개영상
-[![한이음 메디웨이 썸네일](img src="https://github.com/thdtjdgur/25_HC203/blob/main/%ED%95%9C%EC%9D%B4%EC%9D%8C%20%EB%A9%94%EB%94%94%EC%9B%A8%EC%9D%B4%20%EC%8D%B8%EB%84%A4%EC%9D%BC.png"  width="500")](https://www.youtube.com/watch?si=7n6Uzyxs3dZalsro&v=azfa6Psx8fo&feature=youtu.be)
+[![한이음 메디웨이 썸네일](https://github.com/thdtjdgur/25_HC203/blob/main/%ED%95%9C%EC%9D%B4%EC%9D%8C%20%EB%A9%94%EB%94%94%EC%9B%A8%EC%9D%B4%20%EC%8D%B8%EB%84%A4%EC%9D%BC.png)](https://www.youtube.com/watch?si=7n6Uzyxs3dZalsro&v=azfa6Psx8fo&feature=youtu.be)
 
 # 💡5. 핵심 소스코드
 - 라즈베리파이와 ROS 노드 간 UDP 통신을 통해 좌표, 신호를 주고받으며 로봇을 제어한다.
