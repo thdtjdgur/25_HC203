@@ -1,4 +1,12 @@
 # 💡1. 프로젝트 개요
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PLATFORM-JETSON%20NANO%20%7C%20RASPBERRY%20PI%204B-25344F?style=for-the-badge&labelColor=555555" alt="Platform: Jetson Nano and Raspberry Pi 4B" />
+  <img src="https://img.shields.io/badge/SOFTWARE-C%2B%2B%20%2B%20PYTHON%20%2B%20ROS-0C8D7B?style=for-the-badge&labelColor=555555" alt="Software: C++, Python, and ROS" />
+  <img src="https://img.shields.io/badge/PROJECT-MEDIWAY-C65D00?style=for-the-badge&labelColor=555555" alt="Project: MediWay" />
+  <img src="https://img.shields.io/badge/NAVIGATION-LIDAR%20%2B%20BLE-1F5FDB?style=for-the-badge&labelColor=555555" alt="Navigation: LiDAR and BLE" />
+</p>
+
 ## 1-1. 프로젝트 소개
 - 프로젝트 명: 메디웨이(MediWay) - 업무 보조 및 병원 내 길안내 로봇
 - 프로젝트 정의: 의약품 배달·호출 시 위치 이동·내비 제공 로봇을 개발해 스마트 병원 구축을 위한 로봇
